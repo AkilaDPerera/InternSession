@@ -1,3 +1,8 @@
+
+def cubic(x):
+    an = x**3
+    return an
+
 #implement here
 def isPrime(x):
     for i in range (2,x/2):
@@ -12,3 +17,4 @@ def RootCal(x):
     return (x**0.5)
 
 print RootCal(n)
+
