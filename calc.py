@@ -1,4 +1,4 @@
 def cubic(x):
-    ans = x**3
-    return ans
+    an = x**3
+    return an
 
