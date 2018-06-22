@@ -4,6 +4,14 @@ def cubic(x):
     return an
 
 #implement here
+def factorial(x):
+    if x<0:
+        return 0
+    elif x==0:
+        return 1
+    else:
+        return x*factorial(x-1)
+
 def isPrime(x):
     for i in range (2,x/2):
         if (x%i==0):
@@ -17,4 +25,3 @@ def RootCal(x):
     return (x**0.5)
 
 print RootCal(n)
-
