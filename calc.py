@@ -4,6 +4,9 @@ def cubic(x):
     return an
 
 #implement here
+
+def my():
+	pass
 def factorial(x):
     if x<0:
         return 0
