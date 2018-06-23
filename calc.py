@@ -25,3 +25,6 @@ def RootCal(x):
     return (x**0.5)
 
 print RootCal(n)
+
+def create_conflict():
+    pass
